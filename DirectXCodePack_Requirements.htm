@@ -1,0 +1,264 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<title>DirectX Features of Windows API Code Pack</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.msopapdefault, li.msopapdefault, div.msopapdefault
+	{mso-style-name:msopapdefault;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{mso-style-name:msochpdefault;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{font-size:10.0pt;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink=purple>
+
+<div class=Section1>
+
+<p class=MsoNormal><b><span style='font-size:12.0pt;line-height:115%'>DirectX
+Features of Microsoft® Windows API Code Pack for Microsoft®.NET Framework</span></b></p>
+
+<p class=MsoNormal>This release of Microsoft Windows API Code Pack for .NET
+contains managed APIs for the following DirectX features:</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>-<span
+style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b>DXGI</b> 1.0 and 1.1 – Most APIs</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>-<span
+style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b>Direct3D</b> 11.0, 10.1 and 10.0 – Most APIs</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>-<span
+style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b>Direct2D</b> 1.0 – Most APIs</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>-<span
+style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b>DirectWrite</b> – Subset of the APIs</p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>-<span
+style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b>Windows Imaging Component (WIC)</b>&nbsp;- Subset of the APIs</p>
+
+<p class=MsoNormal>Windows API Code Pack contains the following components to
+support DirectX development in .NET:</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'>-<span style='font-size:
+7.0pt;line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>A managed solution containing wrappers for DirectX interfaces, APIs,
+structs and enumerations.</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'>-<span style='font-size:
+7.0pt;line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Sample code and helper utilities.</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'>-<span style='font-size:
+7.0pt;line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Help file (DirectXCodePackHelp).</p>
+
+<p class=MsoNormal>The code DirectX managed library is provided in the form of
+a Visual C++/CLI library that requires Visual Studio 2008 with Microsoft Visual
+C++ installed on it.<br>
+The DirectX solution is provided here: <u>&lt;code pack
+root&gt;\WindowsAPICodePack\DirectX\DirectX.sln</u>.</p>
+
+<p class=MsoNormal>The DirectX samples and utilities are provided under &nbsp;<u>&lt;code
+pack root&gt;\Samples\DirectX</u>.<br>
+Samples are provided for both <b>VB.NET</b> and <b>C#</b> programming
+languages.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-size:4.0pt;line-height:115%'>&nbsp;</span><b><u>Building
+the library and samples:</u></b></p>
+
+<p class=MsoNormal>To build the DirectX solution, you need:</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'>-<span style='font-size:
+7.0pt;line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Visual Studio 2008 with the following components installed </p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+style='font-family:"Courier New"'>o</span><span style='font-size:7.0pt;
+line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp; </span><u>Visual
+C++:</u> for the managed library and sample utilities.</p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+style='font-family:"Courier New"'>o</span><span style='font-size:7.0pt;
+line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp; </span><u>Visual
+C#:</u> for the C# samples.</p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+style='font-family:"Courier New"'>o</span><span style='font-size:7.0pt;
+line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp; </span><u>Visual
+Basic:</u> for the VB samples.</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'>-<span style='font-size:
+7.0pt;line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Windows SDK for Windows 7 installed on your system, only C++ headers and
+libraries components are needed.</p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+style='font-family:"Courier New"'>o</span><span style='font-size:7.0pt;
+line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp; </span>Visual
+Studio C++ paths for the headers correctly referencing the Windows 7 SDK
+“include” path. </p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'>-<span style='font-size:
+7.0pt;line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>DirectX SDK (optional):</p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in'><span
+style='font-family:"Courier New"'>o</span><span style='font-size:7.0pt;
+line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp; </span>Most
+samples can be built using Windows 7 SDK only, however a few samples have
+dependencies on DirectX SDK. <br>
+These samples are:</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:1.5in;margin-bottom:.0001pt;text-indent:-.25in;line-height:
+normal'><span style='font-family:Wingdings'>§</span><span style='font-size:
+7.0pt;font-family:"Times New Roman","serif"'>&nbsp; </span>Samples\DirectX\<b>CS</b>\Direct3D10\Tutorial09\<b>Tutorial09.sln</b></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:1.5in;margin-bottom:.0001pt;text-indent:-.25in;line-height:
+normal'><span style='font-family:Wingdings'>§</span><span style='font-size:
+7.0pt;font-family:"Times New Roman","serif"'>&nbsp; </span>Samples\DirectX\<b>VB</b>\Direct3D10\Tutorial09\<b>Tutorial09.sln</b></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:1.5in;margin-bottom:.0001pt;text-indent:-.25in;line-height:
+normal'><span style='font-family:Wingdings'>§</span><span style='font-size:
+7.0pt;font-family:"Times New Roman","serif"'>&nbsp; </span>Samples\DirectX\<b>CS</b>\Direct3D10\MeshBrowser\<b>MeshBrowser.sln</b></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:1.5in;margin-bottom:.0001pt;text-indent:-.25in;line-height:
+normal'><span style='font-family:Wingdings'>§</span><span style='font-size:
+7.0pt;font-family:"Times New Roman","serif"'>&nbsp; </span>Samples\DirectX\<b>VB</b>\Direct3D10\MeshBrowser\<b>MeshBrowser.sln</b></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:1.5in;margin-bottom:.0001pt;text-indent:-.25in;line-height:
+normal'><span style='font-family:Wingdings'>§</span><span style='font-size:
+7.0pt;font-family:"Times New Roman","serif"'>&nbsp; </span>Samples\DirectX\<b>CS</b>\Direct3D10\TextureSwap\<b>TextureSwap.sln</b></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:1.5in;margin-bottom:.0001pt;text-indent:-.25in;line-height:
+normal'><span style='font-family:Wingdings'>§</span><span style='font-size:
+7.0pt;font-family:"Times New Roman","serif"'>&nbsp; </span>Samples\DirectX\<b>VB</b>\Direct3D10\TextureSwap\<b>TextureSwap.sln</b></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in'>&nbsp;</p>
+
+<p class=MsoNormal><b><u>Running sample solutions:</u></b></p>
+
+<p class=MsoNormal>Samples can be run on Windows 7 or Windows Vista SP2 with <a
+href="http://support.microsoft.com/kb/971644">Platform Update for Windows Vista</a>
+installed.</p>
+
+<p class=MsoNormal>However, the samples mentioned in the DirectX dependencies
+section above, also require DirectX SDK installed on the target machine (or at
+least the required redistributable dlls).</p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoNormal><b><u>64-bit Considerations:</u></b></p>
+
+<p class=MsoNormal>To unify the sample code, all library and samples included
+are pre-configured to be built and run on x86.</p>
+
+<p class=MsoNormal>To build a 64-bit version of the library and/or the samples,
+you'll need to have the required 64-bit support components installed with
+Visual Studio 2008. Please refer to the references below for additional
+information on how to install Visual Studio 64-bit components.</p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoNormal><b><u>References:</u></b></p>
+
+<p class=MsoNormal>Microsoft Windows SDK for Windows 7 and .NET Framework 3.5
+SP1: RTM: </p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'>-<span style='font-size:
+7.0pt;line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>ISO Setup: <a
+href="http://www.microsoft.com/downloads/details.aspx?FamilyID=71deb800-c591-4f97-a900-bea146e4fae1">http://www.microsoft.com/downloads/details.aspx?FamilyID=71deb800-c591-4f97-a900-bea146e4fae1</a>
+</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'>-<span style='font-size:
+7.0pt;line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Web Setup: <a
+href="http://www.microsoft.com/downloads/details.aspx?FamilyID=c17ba869-9671-4330-a63e-1fd44e0e2505">http://www.microsoft.com/downloads/details.aspx?FamilyID=c17ba869-9671-4330-a63e-1fd44e0e2505</a>
+</p>
+
+<p class=MsoNormal>DirectX Software Development Kit Aug 2009 Release:</p>
+
+<p class=MsoNormal><a
+href="http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=b66e14b8-8505-4b17-bf80-edb2df5abad4">http://www.microsoft.com/downloads/details.aspx?FamilyID=b66e14b8-8505-4b17-bf80-edb2df5abad4</a>
+&nbsp;</p>
+
+<p class=MsoNormal>How to install Visual studio 64-bit components: <a
+href="http://msdn.microsoft.com/en-us/library/ms246588.aspx">http://msdn.microsoft.com/en-us/library/ms246588.aspx</a>
+</p>
+
+<p class=MsoNormal>How to: Configure Visual C++ Projects to Target 64-Bit
+Platforms: <a href="http://msdn.microsoft.com/en-us/library/9yb4317s.aspx">http://msdn.microsoft.com/en-us/library/9yb4317s.aspx</a>
+</p>
+
+</div>
+
+</body>
+
+</html>

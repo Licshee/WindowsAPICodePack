@@ -1,0 +1,690 @@
+From: "Saved by Windows Internet Explorer 8"
+Subject: DirectX Overview
+Date: Thu, 11 Jun 2009 12:28:10 -0700
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Public\Keeron-WindowsBridge0.9Release\DirectXReadme.htm
+X-MimeOLE: Produced By Microsoft MimeOLE V6.0.6000.16669
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns=3D"http://www.w3.org/TR/REC-html40" xmlns:v =3D=20
+"urn:schemas-microsoft-com:vml" xmlns:o =3D=20
+"urn:schemas-microsoft-com:office:office" xmlns:w =3D=20
+"urn:schemas-microsoft-com:office:word" xmlns:m =3D=20
+"http://schemas.microsoft.com/office/2004/12/omml"><HEAD><TITLE>DirectX =
+Overview</TITLE>
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DContent-Type>
+<META name=3DProgId content=3DWord.Document>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.18783">
+<META name=3DOriginator content=3D"Microsoft Word 12"><LINK =
+rel=3DFile-List=20
+href=3D"DirectXReadme_files/filelist.xml"><LINK rel=3DPreview=20
+href=3D"DirectXReadme_files/preview.wmf"><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Mahmoud Saleh</o:Author>
+  <o:LastAuthor>Mahmoud Saleh</o:LastAuthor>
+  <o:Revision>6</o:Revision>
+  <o:TotalTime>17</o:TotalTime>
+  <o:Created>2009-06-10T23:00:00Z</o:Created>
+  <o:LastSaved>2009-06-11T16:59:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>388</o:Words>
+  <o:Characters>2216</o:Characters>
+  <o:Company>Microsoft</o:Company>
+  <o:Lines>18</o:Lines>
+  <o:Paragraphs>5</o:Paragraphs>
+  <o:CharactersWithSpaces>2599</o:CharactersWithSpaces>
+  <o:Version>12.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><LINK rel=3DthemeData=20
+href=3D"DirectXReadme_files/themedata.thmx"><LINK =
+rel=3DcolorSchemeMapping=20
+href=3D"DirectXReadme_files/colorschememapping.xml"><!--[if gte mso =
+9]><xml>
+ <w:WordDocument>
+  <w:Zoom>122</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>AR-SA</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val=3D"Cambria Math"/>
+   <m:brkBin m:val=3D"before"/>
+   <m:brkBinSub m:val=3D"&#45;-"/>
+   <m:smallFrac m:val=3D"off"/>
+   <m:dispDef/>
+   <m:lMargin m:val=3D"0"/>
+   <m:rMargin m:val=3D"0"/>
+   <m:defJc m:val=3D"centerGroup"/>
+   <m:wrapIndent m:val=3D"1440"/>
+   <m:intLim m:val=3D"subSup"/>
+   <m:naryLim m:val=3D"undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState=3D"false" DefUnhideWhenUsed=3D"true"
+  DefSemiHidden=3D"true" DefQFormat=3D"false" DefPriority=3D"99"
+  LatentStyleCount=3D"267">
+  <w:LsdException Locked=3D"false" Priority=3D"0" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Normal"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"heading 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 7"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 8"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 9"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 7"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 8"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 9"/>
+  <w:LsdException Locked=3D"false" Priority=3D"35" QFormat=3D"true" =
+Name=3D"caption"/>
+  <w:LsdException Locked=3D"false" Priority=3D"10" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Title"/>
+  <w:LsdException Locked=3D"false" Priority=3D"1" Name=3D"Default =
+Paragraph Font"/>
+  <w:LsdException Locked=3D"false" Priority=3D"11" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtitle"/>
+  <w:LsdException Locked=3D"false" Priority=3D"22" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Strong"/>
+  <w:LsdException Locked=3D"false" Priority=3D"20" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Emphasis"/>
+  <w:LsdException Locked=3D"false" Priority=3D"59" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Table Grid"/>
+  <w:LsdException Locked=3D"false" UnhideWhenUsed=3D"false" =
+Name=3D"Placeholder Text"/>
+  <w:LsdException Locked=3D"false" Priority=3D"1" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"No Spacing"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light List"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Dark List"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 1"/>
+  <w:LsdException Locked=3D"false" UnhideWhenUsed=3D"false" =
+Name=3D"Revision"/>
+  <w:LsdException Locked=3D"false" Priority=3D"34" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"List Paragraph"/>
+  <w:LsdException Locked=3D"false" Priority=3D"29" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Quote"/>
+  <w:LsdException Locked=3D"false" Priority=3D"30" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Quote"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"19" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtle Emphasis"/>
+  <w:LsdException Locked=3D"false" Priority=3D"21" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Emphasis"/>
+  <w:LsdException Locked=3D"false" Priority=3D"31" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtle Reference"/>
+  <w:LsdException Locked=3D"false" Priority=3D"32" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense =
+Reference"/>
+  <w:LsdException Locked=3D"false" Priority=3D"33" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Book Title"/>
+  <w:LsdException Locked=3D"false" Priority=3D"37" =
+Name=3D"Bibliography"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" QFormat=3D"true" =
+Name=3D"TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<STYLE>@font-face {
+	font-family: Wingdings;
+}
+@font-face {
+	font-family: Cambria Math;
+}
+@font-face {
+	font-family: Calibri;
+}
+@page Section1 {size: 8.5in 11.0in; margin: 1.0in 1.0in 1.0in 1.0in; =
+mso-header-margin: .5in; mso-footer-margin: .5in; mso-paper-source: 0; }
+P.MsoNormal {
+	LINE-HEIGHT: 115%; MARGIN: 0in 0in 10pt; FONT-FAMILY: =
+"Calibri","sans-serif"; FONT-SIZE: 11pt; mso-style-unhide: no; =
+mso-style-qformat: yes; mso-style-parent: ""; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: "Times New =
+Roman"
+}
+LI.MsoNormal {
+	LINE-HEIGHT: 115%; MARGIN: 0in 0in 10pt; FONT-FAMILY: =
+"Calibri","sans-serif"; FONT-SIZE: 11pt; mso-style-unhide: no; =
+mso-style-qformat: yes; mso-style-parent: ""; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: "Times New =
+Roman"
+}
+DIV.MsoNormal {
+	LINE-HEIGHT: 115%; MARGIN: 0in 0in 10pt; FONT-FAMILY: =
+"Calibri","sans-serif"; FONT-SIZE: 11pt; mso-style-unhide: no; =
+mso-style-qformat: yes; mso-style-parent: ""; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: "Times New =
+Roman"
+}
+A:link {
+	COLOR: blue; TEXT-DECORATION: underline; mso-style-priority: 99; =
+text-underline: single
+}
+SPAN.MsoHyperlink {
+	COLOR: blue; TEXT-DECORATION: underline; mso-style-priority: 99; =
+text-underline: single
+}
+A:visited {
+	COLOR: purple; TEXT-DECORATION: underline; mso-style-priority: 99; =
+text-underline: single; mso-style-noshow: yes
+}
+SPAN.MsoHyperlinkFollowed {
+	COLOR: purple; TEXT-DECORATION: underline; mso-style-priority: 99; =
+text-underline: single; mso-style-noshow: yes
+}
+P.MsoListParagraph {
+	LINE-HEIGHT: 115%; MARGIN: 0in 0in 10pt 0.5in; FONT-FAMILY: =
+"Calibri","sans-serif"; FONT-SIZE: 11pt; mso-style-unhide: no; =
+mso-style-qformat: yes; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-fareast-theme-font: =
+minor-fareast; mso-bidi-font-family: "Times New Roman"; =
+mso-style-priority: 34
+}
+LI.MsoListParagraph {
+	LINE-HEIGHT: 115%; MARGIN: 0in 0in 10pt 0.5in; FONT-FAMILY: =
+"Calibri","sans-serif"; FONT-SIZE: 11pt; mso-style-unhide: no; =
+mso-style-qformat: yes; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-fareast-theme-font: =
+minor-fareast; mso-bidi-font-family: "Times New Roman"; =
+mso-style-priority: 34
+}
+DIV.MsoListParagraph {
+	LINE-HEIGHT: 115%; MARGIN: 0in 0in 10pt 0.5in; FONT-FAMILY: =
+"Calibri","sans-serif"; FONT-SIZE: 11pt; mso-style-unhide: no; =
+mso-style-qformat: yes; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-fareast-theme-font: =
+minor-fareast; mso-bidi-font-family: "Times New Roman"; =
+mso-style-priority: 34
+}
+P.msolistparagraphcxspfirst {
+	LINE-HEIGHT: 115%; MARGIN: 0in 0in 0pt 0.5in; FONT-FAMILY: =
+"Calibri","sans-serif"; FONT-SIZE: 11pt; mso-style-unhide: no; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: =
+"Times New Roman"; mso-style-name: msolistparagraphcxspfirst
+}
+LI.msolistparagraphcxspfirst {
+	LINE-HEIGHT: 115%; MARGIN: 0in 0in 0pt 0.5in; FONT-FAMILY: =
+"Calibri","sans-serif"; FONT-SIZE: 11pt; mso-style-unhide: no; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: =
+"Times New Roman"; mso-style-name: msolistparagraphcxspfirst
+}
+DIV.msolistparagraphcxspfirst {
+	LINE-HEIGHT: 115%; MARGIN: 0in 0in 0pt 0.5in; FONT-FAMILY: =
+"Calibri","sans-serif"; FONT-SIZE: 11pt; mso-style-unhide: no; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: =
+"Times New Roman"; mso-style-name: msolistparagraphcxspfirst
+}
+P.msolistparagraphcxspmiddle {
+	LINE-HEIGHT: 115%; MARGIN: 0in 0in 0pt 0.5in; FONT-FAMILY: =
+"Calibri","sans-serif"; FONT-SIZE: 11pt; mso-style-unhide: no; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: =
+"Times New Roman"; mso-style-name: msolistparagraphcxspmiddle
+}
+LI.msolistparagraphcxspmiddle {
+	LINE-HEIGHT: 115%; MARGIN: 0in 0in 0pt 0.5in; FONT-FAMILY: =
+"Calibri","sans-serif"; FONT-SIZE: 11pt; mso-style-unhide: no; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: =
+"Times New Roman"; mso-style-name: msolistparagraphcxspmiddle
+}
+DIV.msolistparagraphcxspmiddle {
+	LINE-HEIGHT: 115%; MARGIN: 0in 0in 0pt 0.5in; FONT-FAMILY: =
+"Calibri","sans-serif"; FONT-SIZE: 11pt; mso-style-unhide: no; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: =
+"Times New Roman"; mso-style-name: msolistparagraphcxspmiddle
+}
+P.msolistparagraphcxsplast {
+	LINE-HEIGHT: 115%; MARGIN: 0in 0in 10pt 0.5in; FONT-FAMILY: =
+"Calibri","sans-serif"; FONT-SIZE: 11pt; mso-style-unhide: no; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: =
+"Times New Roman"; mso-style-name: msolistparagraphcxsplast
+}
+LI.msolistparagraphcxsplast {
+	LINE-HEIGHT: 115%; MARGIN: 0in 0in 10pt 0.5in; FONT-FAMILY: =
+"Calibri","sans-serif"; FONT-SIZE: 11pt; mso-style-unhide: no; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: =
+"Times New Roman"; mso-style-name: msolistparagraphcxsplast
+}
+DIV.msolistparagraphcxsplast {
+	LINE-HEIGHT: 115%; MARGIN: 0in 0in 10pt 0.5in; FONT-FAMILY: =
+"Calibri","sans-serif"; FONT-SIZE: 11pt; mso-style-unhide: no; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: =
+"Times New Roman"; mso-style-name: msolistparagraphcxsplast
+}
+P.msopapdefault {
+	LINE-HEIGHT: 115%; FONT-FAMILY: "Times New Roman","serif"; =
+MARGIN-BOTTOM: 10pt; MARGIN-LEFT: 0in; FONT-SIZE: 12pt; MARGIN-RIGHT: =
+0in; mso-style-unhide: no; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-fareast-theme-font: =
+minor-fareast; mso-style-name: msopapdefault; mso-margin-top-alt: auto
+}
+LI.msopapdefault {
+	LINE-HEIGHT: 115%; FONT-FAMILY: "Times New Roman","serif"; =
+MARGIN-BOTTOM: 10pt; MARGIN-LEFT: 0in; FONT-SIZE: 12pt; MARGIN-RIGHT: =
+0in; mso-style-unhide: no; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-fareast-theme-font: =
+minor-fareast; mso-style-name: msopapdefault; mso-margin-top-alt: auto
+}
+DIV.msopapdefault {
+	LINE-HEIGHT: 115%; FONT-FAMILY: "Times New Roman","serif"; =
+MARGIN-BOTTOM: 10pt; MARGIN-LEFT: 0in; FONT-SIZE: 12pt; MARGIN-RIGHT: =
+0in; mso-style-unhide: no; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-fareast-theme-font: =
+minor-fareast; mso-style-name: msopapdefault; mso-margin-top-alt: auto
+}
+SPAN.SpellE {
+	mso-style-name: ""; mso-spl-e: yes
+}
+SPAN.GramE {
+	mso-style-name: ""; mso-gram-e: yes
+}
+.MsoChpDefault {
+	FONT-SIZE: 10pt; mso-style-type: export-only; mso-default-props: yes; =
+mso-ansi-font-size: 10.0pt; mso-bidi-font-size: 10.0pt
+}
+DIV.Section1 {
+	page: Section1
+}
+OL {
+	MARGIN-BOTTOM: 0in
+}
+UL {
+	MARGIN-BOTTOM: 0in
+}
+</STYLE>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"4098"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1"/>
+ </o:shapelayout></xml><![endif]--></HEAD>
+<BODY style=3D"tab-interval: .5in" lang=3DEN-US link=3Dblue =
+vLink=3Dpurple>
+<DIV class=3DSection1>
+<P class=3DMsoNormal><B>Windows=AE API Code Pack for Microsoft=AE .NET =
+Framework =96=20
+DirectX APIs<o:p></o:p></B></P>
+<P class=3DMsoNormal>This release (0.9.0.0) of Windows=AE API Code Pack =
+for=20
+Microsoft=AE .NET Framework contains managed APIs for the following =
+DirectX=20
+features:</P>
+<P style=3D"TEXT-INDENT: -0.25in" class=3DMsoListParagraph>-<SPAN=20
+style=3D"LINE-HEIGHT: 115%; FONT-FAMILY: 'Times New Roman','serif'; =
+FONT-SIZE: 7pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>DXGI 1.0 and 1.1 =96 Most APIs</P>
+<P style=3D"TEXT-INDENT: -0.25in" class=3DMsoListParagraph>-<SPAN=20
+style=3D"LINE-HEIGHT: 115%; FONT-FAMILY: 'Times New Roman','serif'; =
+FONT-SIZE: 7pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>Direct3D 11.0, 10.1 and 10.0 =96 Most APIs</P>
+<P style=3D"TEXT-INDENT: -0.25in" class=3DMsoListParagraph>-<SPAN=20
+style=3D"LINE-HEIGHT: 115%; FONT-FAMILY: 'Times New Roman','serif'; =
+FONT-SIZE: 7pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>Direct2D 1.0 =96 Most APIs</P>
+<P style=3D"TEXT-INDENT: -0.25in" class=3DMsoListParagraph>-<SPAN=20
+style=3D"LINE-HEIGHT: 115%; FONT-FAMILY: 'Times New Roman','serif'; =
+FONT-SIZE: 7pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>DirectWrite =96 Subset of the native APIs</P>
+<P style=3D"TEXT-INDENT: -0.25in" class=3DMsoListParagraph>-<SPAN=20
+style=3D"LINE-HEIGHT: 115%; FONT-FAMILY: 'Times New Roman','serif'; =
+FONT-SIZE: 7pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>Windows Imaging Component (WIC) - Subset of the native APIs</P>
+<P class=3DMsoNormal>The library support for DirectX is not yet =
+complete, and is=20
+provided as-is. It contains samples for the various areas of =
+DirectX.</P>
+<P class=3DMsoNormal>The DirectX managed library solution can be loaded =
+and built=20
+in Visual Studio 2008 using the solution under <SPAN=20
+class=3DSpellE>WindowsAPICodePack</SPAN>\DirectX\DirectX.sln</P>
+<P class=3DMsoNormal>To build the DirectX solution, you must have <B><A=20
+href=3D"http://www.microsoft.com/DOWNLOADS/details.aspx?familyid=3DF75F2C=
+A8-C1E4-4801-9281-2F5F28F12DBD">Windows=20
+SDK for Windows 7</A></B> installed on your system. Also, Visual Studio =
+must be=20
+correctly configured to reference the include paths in Windows SDK, =
+typically=20
+=93C:\Program Files\Microsoft SDKs\windows\v7.0\include=94.</P>
+<P class=3DMsoNormal>You can also use <B><A=20
+href=3D"http://www.microsoft.com/downloads/details.aspx?FamilyID=3D24a541=
+d6-0486-4453-8641-1eee9e21b282">DirectX=20
+SDK March 2009 Release</A></B> or later to build the library. </P>
+<P class=3DMsoNormal><U>Samples:</U></P>
+<P class=3DMsoNormal>Direct3D 10 samples requires DirectX SDK March 2009 =
+release=20
+or later to be installed on your system. Please see the =93Downloads=94 =
+section=20
+below to find where you can download this release.</P>
+<P class=3DMsoNormal>All samples are configured to run on Windows 7. =
+However, to=20
+be able to run samples on Vista, you need to:</P>
+<P style=3D"TEXT-INDENT: -0.25in; mso-list: l0 level1 lfo1"=20
+class=3DMsoListParagraph><![if !supportLists]><SPAN=20
+style=3D"mso-fareast-font-family: Calibri; mso-bidi-font-family: =
+Calibri"><SPAN=20
+style=3D"mso-list: Ignore">-<SPAN=20
+style=3D"FONT: 7pt 'Times New =
+Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><![endif]><SPAN dir=3Dltr></SPAN>Install DirectX =
+SDK on your=20
+test box because DX SDK installs the libraries (<SPAN =
+class=3DSpellE>dlls</SPAN>)=20
+required.</P>
+<P style=3D"TEXT-INDENT: -0.25in; mso-list: l0 level1 lfo1"=20
+class=3DMsoListParagraph><![if !supportLists]><SPAN=20
+style=3D"mso-fareast-font-family: Calibri; mso-bidi-font-family: =
+Calibri"><SPAN=20
+style=3D"mso-list: Ignore">-<SPAN=20
+style=3D"FONT: 7pt 'Times New =
+Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><![endif]><SPAN dir=3Dltr></SPAN>For D3D 11 samples =
+only, add=20
+an additional preprocessor definition, DXSDK, to your DirectX project=20
+configuration. <BR>In the sample solution, Right click on DirectX =
+project <SPAN=20
+style=3D"FONT-FAMILY: Wingdings; mso-ascii-font-family: Calibri; =
+mso-hansi-font-family: Calibri; mso-char-type: symbol; =
+mso-symbol-font-family: Wingdings"><SPAN=20
+style=3D"mso-char-type: symbol; mso-symbol-font-family: =
+Wingdings">=E0</SPAN></SPAN>=20
+select Properties <SPAN=20
+style=3D"FONT-FAMILY: Wingdings; mso-ascii-font-family: Calibri; =
+mso-hansi-font-family: Calibri; mso-char-type: symbol; =
+mso-symbol-font-family: Wingdings"><SPAN=20
+style=3D"mso-char-type: symbol; mso-symbol-font-family: =
+Wingdings">=E0</SPAN></SPAN>=20
+Open =93Configuration Properties | C/C++ | Preprocessor=94 tab <SPAN=20
+style=3D"FONT-FAMILY: Wingdings; mso-ascii-font-family: Calibri; =
+mso-hansi-font-family: Calibri; mso-char-type: symbol; =
+mso-symbol-font-family: Wingdings"><SPAN=20
+style=3D"mso-char-type: symbol; mso-symbol-font-family: =
+Wingdings">=E0</SPAN></SPAN>=20
+Then, in the Preprocessor Definitions, add <SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'">=93<SPAN =
+class=3DGramE>;DXSDK</SPAN></SPAN>=94 to=20
+the end of the definitions. <SPAN=20
+style=3D"FONT-FAMILY: Wingdings; mso-ascii-font-family: Calibri; =
+mso-hansi-font-family: Calibri; mso-char-type: symbol; =
+mso-symbol-font-family: Wingdings"><SPAN=20
+style=3D"mso-char-type: symbol; mso-symbol-font-family: =
+Wingdings">=E0</SPAN></SPAN>=20
+Apply</P>
+<P class=3DMsoNormal><U>Downloads:</U></P>
+<P class=3DMsoNormal>Microsoft Windows SDK for Windows 7 and .NET =
+Framework 3.5=20
+SP1: RC download page: <A=20
+href=3D"http://www.microsoft.com/DOWNLOADS/details.aspx?familyid=3DF75F2C=
+A8-C1E4-4801-9281-2F5F28F12DBD">http://www.microsoft.com/DOWNLOADS/detail=
+s.aspx?familyid=3DF75F2CA8-C1E4-4801-9281-2F5F28F12DBD</A>=20
+</P>
+<P class=3DMsoNormal>DirectX Software Development Kit March 2009 release =
+download=20
+page:</P>
+<P class=3DMsoNormal><A=20
+href=3D"http://www.microsoft.com/downloads/details.aspx?FamilyID=3D24a541=
+d6-0486-4453-8641-1eee9e21b282">http://www.microsoft.com/downloads/detail=
+s.aspx?FamilyID=3D24a541d6-0486-4453-8641-1eee9e21b282</A>=20
+&nbsp;</P>
+<P class=3DMsoNormal>&nbsp;</P></DIV></BODY></HTML>

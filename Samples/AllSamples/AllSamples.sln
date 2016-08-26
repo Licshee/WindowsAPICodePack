@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplorerBrowserDemo", "..\ExplorerBrowser\WinForms\ExplorerBrowserDemo.csproj", "{2AACFF7E-F4B1-44F6-92C6-20ACBB647A4D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AA0C00CB-8699-4F37-BFAE-40CA87ACC06D} = {AA0C00CB-8699-4F37-BFAE-40CA87ACC06D}
+		{2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57} = {2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFExplorerBrowserDemo", "..\ExplorerBrowser\WPF\WPFExplorerBrowserDemo\WPFExplorerBrowserDemo.csproj", "{85C322BA-C046-4416-87D2-D79AE92A1E65}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AA0C00CB-8699-4F37-BFAE-40CA87ACC06D} = {AA0C00CB-8699-4F37-BFAE-40CA87ACC06D}
+		{2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57} = {2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellObjectCFDBrowser", "..\Shell\ShellObjectCFDBrowser\ShellObjectCFDBrowser\ShellObjectCFDBrowser.csproj", "{999D4DCE-5E0E-4DA9-8C42-8889FEC751F3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AA0C00CB-8699-4F37-BFAE-40CA87ACC06D} = {AA0C00CB-8699-4F37-BFAE-40CA87ACC06D}
+		{2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57} = {2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarBackup", "..\Shell\StarBackup\StarBackup.csproj", "{709ECE68-5107-4C42-8A92-AD9A79EAC07E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AA0C00CB-8699-4F37-BFAE-40CA87ACC06D} = {AA0C00CB-8699-4F37-BFAE-40CA87ACC06D}
+		{2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57} = {2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskbarDemo", "..\Shell\TaskbarDemo\TaskbarDemo\TaskbarDemo.csproj", "{12F17213-0DEC-41E6-91EB-48C74A0B6AB0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AA0C00CB-8699-4F37-BFAE-40CA87ACC06D} = {AA0C00CB-8699-4F37-BFAE-40CA87ACC06D}
+		{2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57} = {2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationHelper", "..\Shell\TaskbarDemo\RegistrationHelper\RegistrationHelper.csproj", "{03F9F5A8-F3F4-499A-8B15-57ADBA5148CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AA0C00CB-8699-4F37-BFAE-40CA87ACC06D} = {AA0C00CB-8699-4F37-BFAE-40CA87ACC06D}
+		{2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57} = {2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThumbnailBrowserDemo", "..\Shell\ThumbnailBrowserDemo\ThumbnailBrowserDemo\ThumbnailBrowserDemo.csproj", "{86FF8635-74BE-4EA4-A29E-01E3FFB2E45D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AA0C00CB-8699-4F37-BFAE-40CA87ACC06D} = {AA0C00CB-8699-4F37-BFAE-40CA87ACC06D}
+		{2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57} = {2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellHierarchyTreeDemo", "..\Shell\ShellHierarchyTreeDemo\ShellHierarchyTreeDemo.csproj", "{E2220BCE-2FA7-4E0E-9793-803CE0EE5F3F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AA0C00CB-8699-4F37-BFAE-40CA87ACC06D} = {AA0C00CB-8699-4F37-BFAE-40CA87ACC06D}
+		{2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57} = {2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "..\..\WindowsAPICodePack\Core\Core.csproj", "{2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell", "..\..\WindowsAPICodePack\Shell\Shell.csproj", "{AA0C00CB-8699-4F37-BFAE-40CA87ACC06D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyEdit", "..\Shell\PropertyEdit\PropertyEdit.csproj", "{4948B64F-7008-44D2-872E-21A642759B62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AACFF7E-F4B1-44F6-92C6-20ACBB647A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AACFF7E-F4B1-44F6-92C6-20ACBB647A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AACFF7E-F4B1-44F6-92C6-20ACBB647A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AACFF7E-F4B1-44F6-92C6-20ACBB647A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85C322BA-C046-4416-87D2-D79AE92A1E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C322BA-C046-4416-87D2-D79AE92A1E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C322BA-C046-4416-87D2-D79AE92A1E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C322BA-C046-4416-87D2-D79AE92A1E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999D4DCE-5E0E-4DA9-8C42-8889FEC751F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999D4DCE-5E0E-4DA9-8C42-8889FEC751F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999D4DCE-5E0E-4DA9-8C42-8889FEC751F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999D4DCE-5E0E-4DA9-8C42-8889FEC751F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{709ECE68-5107-4C42-8A92-AD9A79EAC07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{709ECE68-5107-4C42-8A92-AD9A79EAC07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{709ECE68-5107-4C42-8A92-AD9A79EAC07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{709ECE68-5107-4C42-8A92-AD9A79EAC07E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F17213-0DEC-41E6-91EB-48C74A0B6AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F17213-0DEC-41E6-91EB-48C74A0B6AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F17213-0DEC-41E6-91EB-48C74A0B6AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F17213-0DEC-41E6-91EB-48C74A0B6AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F9F5A8-F3F4-499A-8B15-57ADBA5148CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F9F5A8-F3F4-499A-8B15-57ADBA5148CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F9F5A8-F3F4-499A-8B15-57ADBA5148CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F9F5A8-F3F4-499A-8B15-57ADBA5148CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86FF8635-74BE-4EA4-A29E-01E3FFB2E45D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86FF8635-74BE-4EA4-A29E-01E3FFB2E45D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86FF8635-74BE-4EA4-A29E-01E3FFB2E45D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86FF8635-74BE-4EA4-A29E-01E3FFB2E45D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2220BCE-2FA7-4E0E-9793-803CE0EE5F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2220BCE-2FA7-4E0E-9793-803CE0EE5F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2220BCE-2FA7-4E0E-9793-803CE0EE5F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2220BCE-2FA7-4E0E-9793-803CE0EE5F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1FB0DF-F9BB-4909-9F32-2D9D022A8E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA0C00CB-8699-4F37-BFAE-40CA87ACC06D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0C00CB-8699-4F37-BFAE-40CA87ACC06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0C00CB-8699-4F37-BFAE-40CA87ACC06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0C00CB-8699-4F37-BFAE-40CA87ACC06D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4948B64F-7008-44D2-872E-21A642759B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4948B64F-7008-44D2-872E-21A642759B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4948B64F-7008-44D2-872E-21A642759B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4948B64F-7008-44D2-872E-21A642759B62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

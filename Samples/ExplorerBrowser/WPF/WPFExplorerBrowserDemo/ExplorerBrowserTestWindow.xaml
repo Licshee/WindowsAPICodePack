@@ -1,0 +1,193 @@
+﻿<!-- Copyright (c) Microsoft Corporation.  All rights reserved. -->
+
+<Window x:Class="Microsoft.WindowsAPICodePack.Samples.ExplorerBrowserTestWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Explorer Browser WPF Demo" Height="600" Width="800"
+    xmlns:EBP="clr-namespace:Microsoft.WindowsAPICodePack.Shell.Presentation;assembly=Microsoft.WindowsAPICodePack.Shell">
+    <Window.Resources>
+        <LinearGradientBrush x:Key="gradientBrush" EndPoint="0.51,0.993" StartPoint="0.51,0.065">
+            <GradientStop Color="#FFE99B02" Offset="0"/>
+            <GradientStop Color="#FFFFF9FF" Offset="1"/>
+        </LinearGradientBrush>
+
+        <SolidColorBrush x:Key="borderBrush" Color="DarkRed"/>
+
+        <Style x:Key="CheckedListBoxStyle" TargetType="{x:Type ListBox}" BasedOn="{StaticResource {x:Type ListBox}}">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="KeyboardNavigation.DirectionalNavigation" Value="Cycle"/>
+            <Setter Property="ItemContainerStyle">
+                <Setter.Value>
+                    <Style TargetType="{x:Type ListBoxItem}" >
+                        <Setter Property="Margin" Value="2, 2, 2, 0" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                                    <Border Background="Transparent">
+                                        <CheckBox Content="{TemplateBinding Content}" IsChecked="{Binding Path=IsSelected, RelativeSource={RelativeSource AncestorType={x:Type ListBoxItem}}}" />
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </Window.Resources>
+
+    <Grid Width="Auto" Height="Auto">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="290px"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Width="Auto" Height="Auto"  Background="BlanchedAlmond">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="250px"/>
+                <RowDefinition Height="155px"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Border CornerRadius="10" Background="{StaticResource gradientBrush}" Padding="10" Grid.Row="0" BorderBrush="{StaticResource borderBrush}" BorderThickness="1" Margin="10,10,10,10" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition ></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Margin="5,-1,6,6">View Mode</TextBlock>
+                    <Rectangle Grid.Row="1" Margin="20,-1,-1,-1" HorizontalAlignment="Left"  VerticalAlignment="Stretch"/>
+                    <ListBox Grid.Row="1"
+                             Style="{StaticResource CheckedListBoxStyle}"
+                             SelectionMode="Single"
+                             IsSynchronizedWithCurrentItem="True" FontSize="18" Height="Auto"
+                             VerticalAlignment="Stretch" HorizontalAlignment="Stretch" SelectedIndex="0" SelectionChanged="ViewMode_SelectionChanged">
+                        <ListBoxItem x:Name="lbiAuto">Auto</ListBoxItem>
+                        <ListBoxItem x:Name="lbiContent">Content</ListBoxItem>
+                        <ListBoxItem x:Name="lbiDetails">Details</ListBoxItem>
+                        <ListBoxItem x:Name="lbiIcon">Icon</ListBoxItem>
+                        <ListBoxItem x:Name="lbiList">List</ListBoxItem>
+                        <ListBoxItem x:Name="lbiSmallIcon">SmallIcon</ListBoxItem>
+                        <ListBoxItem x:Name="lbiThumbnail">Thumbnail</ListBoxItem>
+                        <ListBoxItem x:Name="lbiThumbStrip">ThumbStrip</ListBoxItem>
+                        <ListBoxItem x:Name="lbiTile">Tile</ListBoxItem>
+                    </ListBox>
+                </Grid>
+            </Border>
+
+            <Border CornerRadius="10" Background="{StaticResource gradientBrush}" Padding="10" Grid.Row="1" BorderBrush="{StaticResource borderBrush}" BorderThickness="1" Margin="10,10,10,10" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition ></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Margin="5,-1,6,6">Control Options</TextBlock>
+                    <Rectangle Grid.Row="1" Margin="20,-1,-1,-1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                    <ListBox Grid.Row="1"
+                             Style="{StaticResource CheckedListBoxStyle}"
+                             SelectionMode="Multiple"
+                             IsSynchronizedWithCurrentItem="True" FontSize="18" Height="Auto"
+                             VerticalAlignment="Stretch" HorizontalAlignment="Stretch" SelectedIndex="0">
+                        <ListBoxItem x:Name="lbiAwaysNavigate">AwaysNavigate</ListBoxItem>
+                        <ListBoxItem x:Name="lbiNavigateOnce">NavigateOnce</ListBoxItem>
+                        <ListBoxItem x:Name="lbiNoTravelLog">NoTravelLog</ListBoxItem>
+                        <ListBoxItem x:Name="lbiShowFrames">ShowFrames</ListBoxItem>
+                    </ListBox>
+                </Grid>
+            </Border>
+
+            <Border CornerRadius="10" Background="{StaticResource gradientBrush}" Padding="10" Grid.Row="2" BorderBrush="{StaticResource borderBrush}" BorderThickness="1" Margin="10,10,10,10">
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition ></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Margin="5,-1,6,6">Content Options</TextBlock>
+
+                    <Rectangle Grid.Row="1" Margin="20,-1,-1,-1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+
+                    <ListBox Grid.Row="1"
+                             Style="{StaticResource CheckedListBoxStyle}" 
+                             SelectionMode="Multiple"
+                             IsSynchronizedWithCurrentItem="True" FontSize="18" Height="Auto" 
+                             VerticalAlignment="Stretch" HorizontalAlignment="Stretch" SelectedIndex="0">
+                        <ListBoxItem x:Name="lbiiAlignLeft">AlignLeft</ListBoxItem>
+                        <ListBoxItem x:Name="lbiAutoArrange">AutoArrange</ListBoxItem>
+                        <ListBoxItem x:Name="lbiCheckSelect">CheckSelect</ListBoxItem>
+                        <ListBoxItem x:Name="lbiExtendedTiles">ExtendedTiles</ListBoxItem>
+                        <ListBoxItem x:Name="lbiFullRowSelect">FullRowSelect</ListBoxItem>
+                        <ListBoxItem x:Name="lbiHideFileNames">HideFileNames</ListBoxItem>
+                        <ListBoxItem x:Name="lbiNoBrowserViewState">NoBrowserViewState</ListBoxItem>
+                        <ListBoxItem x:Name="lbiNoColumnHeader">NoColumnHeader</ListBoxItem>
+                        <ListBoxItem x:Name="lbiNoHeaderInAllViews">NoHeaderInAllViews</ListBoxItem>
+                        <ListBoxItem x:Name="lbiNoIcons">NoIcons</ListBoxItem>
+                        <ListBoxItem x:Name="lbiNoSubFolders">NoSubFolders</ListBoxItem>
+                        <ListBoxItem x:Name="lbiSingleClickActivate">SingleClickActivate</ListBoxItem>
+                        <ListBoxItem x:Name="lbiSingleSelection">SingleSelection</ListBoxItem>
+                    </ListBox>
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid Grid.Column="1" Background="BlanchedAlmond" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100px"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="200px"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Border Grid.Row="0" Margin="10,10,10,10" CornerRadius="10" Background="{StaticResource gradientBrush}" BorderBrush="{StaticResource borderBrush}" BorderThickness="1" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="150px"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="1" Margin="10,2,10,1" Name="navigateFileButton" Click="navigateFileButton_Click">Navigate File</Button>
+                        <Button Grid.Column="1" Grid.Row="1" Margin="10,2,10,1" Name="navigateFolderButton" Click="navigateFolderButton_Click">Navigate Folder</Button>
+                        <Button Grid.Column="1" Grid.Row="2" Margin="10,2,10,1" Name="navigateKnownFolderButton" Click="navigateKnownFolderButton_Click">Navigate Known Folder</Button>
+                        <ComboBox Grid.Row="2" Margin="29,2,23,1" Name="knownFoldersCombo" />
+                        <TextBox Margin="30,2,23,1" Name="navigateFileTextBox" />
+                        <TextBox Grid.Row="1" Margin="29,2,23,1" Name="navigateFolderTextBox" />
+                    </Grid>
+                    
+                </Border>
+                <Border Grid.Row="1" Margin="10,10,10,10" CornerRadius="10" Background="{StaticResource gradientBrush}" BorderBrush="{StaticResource borderBrush}" BorderThickness="1" >
+                    <EBP:ExplorerBrowser Margin="10,10,10,10"
+                    x:Name="eb"
+                    AlignLeft="{Binding IsSelected, ElementName=lbiAlignLeft}"
+                    AutoArrange="{Binding IsSelected, ElementName=lbiAutoArrange}"
+                    CheckSelect="{Binding IsSelected, ElementName=lbiCheckSelect}"
+                    ExtendedTiles="{Binding IsSelected, ElementName=lbiExtendedTiles}"
+                    FullRowSelect="{Binding IsSelected, ElementName=lbiFullRowSelect}"
+                    HideFileNames="{Binding IsSelected, ElementName=lbiHideFileNames}"
+                    NoBrowserViewState="{Binding IsSelected, ElementName=lbiNoBrowserViewState}"
+                    NoColumnHeader="{Binding IsSelected, ElementName=lbiNoColumnHeader}"
+                    NoHeaderInAllViews="{Binding IsSelected, ElementName=lbiNoHeaderInAllViews}"
+                    NoIcons="{Binding IsSelected, ElementName=lbiNoIcons}"
+                    NoSubFolders="{Binding IsSelected, ElementName=lbiNoSubFolders}"
+                    SingleClickActivate="{Binding IsSelected, ElementName=lbiSingleClickActivate}"
+                    SingleSelection="{Binding IsSelected, ElementName=lbiSingleSelection}"
+
+                    AlwaysNavigate="{Binding IsSelected, ElementName=lbiAlwaysNavigate}"
+                    NavigateOnce="{Binding IsSelected, ElementName=lbiNavigateOnce}"
+                    NoTravelLog="{Binding IsSelected, ElementName=lbiNoTravelLog}"
+                    ShowFrames="{Binding IsSelected, ElementName=lbiShowFrames}" >
+                    </EBP:ExplorerBrowser>
+                </Border>
+                <Border Grid.Row="2" Margin="10,10,10,10" CornerRadius="10" Background="{StaticResource gradientBrush}" BorderBrush="{StaticResource borderBrush}" BorderThickness="1">
+                    <ScrollViewer Margin="10,10,10,10">
+                        <StackPanel Name ="ItemsList">
+                        </StackPanel>
+                    </ScrollViewer>
+                </Border>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

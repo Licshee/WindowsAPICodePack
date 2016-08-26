@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Microsoft.WindowsAPICodePack.Shell.ShellObject" Collapsed="true">
+    <Position X="4.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ShellObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.WindowsAPICodePack.Shell.SearchConnector" Collapsed="true">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAgAAgAAAABAQAAAAAAQgAAAAAAAQAAAAAAgQIAA=</HashCode>
+      <FileName>Common\SearchConnector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.WindowsAPICodePack.Shell.ShellFolder" Collapsed="true">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAgAAAABAQAAAAAAQAAAAAAAAQAAAAAAgQIAA=</HashCode>
+      <FileName>Common\ShellFolder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.187" />
+  </Class>
+  <Class Name="Microsoft.WindowsAPICodePack.Shell.ShellFileSystemObject" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAQABAAAAAAAAAAAAAEAAAAAAAAACAAQ=</HashCode>
+      <FileName>Common\ShellFileSystemObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.1" />
+  </Class>
+  <Class Name="Microsoft.WindowsAPICodePack.Shell.ShellLibrary" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAAlAAAAAAABAQAAAABgQiAgJAAAAAAAAEAANQIAA=</HashCode>
+      <FileName>Common\ShellLibrary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.531" />
+  </Class>
+  <Class Name="Microsoft.WindowsAPICodePack.Shell.KnownFolder" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCIAABAAAAIgABoQAkCCYIQAQARCBAAIAoQkIgEQKAA=</HashCode>
+      <FileName>KnownFolders\KnownFolder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.251" />
+  </Class>
+  <Class Name="Microsoft.WindowsAPICodePack.Shell.ShellFile" Collapsed="true">
+    <Position X="5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ShellFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Microsoft.WindowsAPICodePack.Shell.IShellContainer" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\IShellContainer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.WindowsAPICodePack.Shell.IShellContainer&lt;T&gt;" Collapsed="true">
+    <Position X="4.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\IShellContainerT.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.WindowsAPICodePack.Shell.IShellLibraryItem" Collapsed="true">
+    <Position X="8.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\IShellLibraryItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.WindowsAPICodePack.Shell.IShellObject" Collapsed="true">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\IShellObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

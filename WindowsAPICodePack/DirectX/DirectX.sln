@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectX", "DirectX\DirectX.vcproj", "{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug x64 (DirectX SDK)|Any CPU = Debug x64 (DirectX SDK)|Any CPU
+		Debug x64 (DirectX SDK)|Mixed Platforms = Debug x64 (DirectX SDK)|Mixed Platforms
+		Debug x64 (DirectX SDK)|Win32 = Debug x64 (DirectX SDK)|Win32
+		Debug x64 (DirectX SDK)|x64 = Debug x64 (DirectX SDK)|x64
+		Debug x64|Any CPU = Debug x64|Any CPU
+		Debug x64|Mixed Platforms = Debug x64|Mixed Platforms
+		Debug x64|Win32 = Debug x64|Win32
+		Debug x64|x64 = Debug x64|x64
+		Debug x86 (DirectX SDK)|Any CPU = Debug x86 (DirectX SDK)|Any CPU
+		Debug x86 (DirectX SDK)|Mixed Platforms = Debug x86 (DirectX SDK)|Mixed Platforms
+		Debug x86 (DirectX SDK)|Win32 = Debug x86 (DirectX SDK)|Win32
+		Debug x86 (DirectX SDK)|x64 = Debug x86 (DirectX SDK)|x64
+		Debug x86|Any CPU = Debug x86|Any CPU
+		Debug x86|Mixed Platforms = Debug x86|Mixed Platforms
+		Debug x86|Win32 = Debug x86|Win32
+		Debug x86|x64 = Debug x86|x64
+		Release x64|Any CPU = Release x64|Any CPU
+		Release x64|Mixed Platforms = Release x64|Mixed Platforms
+		Release x64|Win32 = Release x64|Win32
+		Release x64|x64 = Release x64|x64
+		Release x86|Any CPU = Release x86|Any CPU
+		Release x86|Mixed Platforms = Release x86|Mixed Platforms
+		Release x86|Win32 = Release x86|Win32
+		Release x86|x64 = Release x86|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x64 (DirectX SDK)|Any CPU.ActiveCfg = Debug x64 (DirectX SDK)|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x64 (DirectX SDK)|Mixed Platforms.ActiveCfg = Debug x64 (DirectX SDK)|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x64 (DirectX SDK)|Mixed Platforms.Build.0 = Debug x64 (DirectX SDK)|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x64 (DirectX SDK)|Win32.ActiveCfg = Debug x64 (DirectX SDK)|Win32
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x64 (DirectX SDK)|Win32.Build.0 = Debug x64 (DirectX SDK)|Win32
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x64 (DirectX SDK)|x64.ActiveCfg = Debug x64 (DirectX SDK)|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x64 (DirectX SDK)|x64.Build.0 = Debug x64 (DirectX SDK)|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x64|Any CPU.ActiveCfg = Debug x64|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x64|Mixed Platforms.ActiveCfg = Debug x64|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x64|Mixed Platforms.Build.0 = Debug x64|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x64|Win32.ActiveCfg = Debug x64|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x64|Win32.Build.0 = Debug x64|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x64|x64.ActiveCfg = Debug x64|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x64|x64.Build.0 = Debug x64|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x86 (DirectX SDK)|Any CPU.ActiveCfg = Debug x86 (DirectX SDK)|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x86 (DirectX SDK)|Mixed Platforms.ActiveCfg = Debug x86 (DirectX SDK)|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x86 (DirectX SDK)|Mixed Platforms.Build.0 = Debug x86 (DirectX SDK)|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x86 (DirectX SDK)|Win32.ActiveCfg = Debug x86 (DirectX SDK)|Win32
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x86 (DirectX SDK)|Win32.Build.0 = Debug x86 (DirectX SDK)|Win32
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x86 (DirectX SDK)|x64.ActiveCfg = Debug x86 (DirectX SDK)|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x86 (DirectX SDK)|x64.Build.0 = Debug x86 (DirectX SDK)|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x86|Any CPU.ActiveCfg = Debug x86|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x86|Mixed Platforms.ActiveCfg = Debug x86|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x86|Mixed Platforms.Build.0 = Debug x86|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x86|Win32.ActiveCfg = Debug x86|Win32
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x86|Win32.Build.0 = Debug x86|Win32
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x86|x64.ActiveCfg = Debug x86|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Debug x86|x64.Build.0 = Debug x86|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Release x64|Any CPU.ActiveCfg = Release x64|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Release x64|Mixed Platforms.ActiveCfg = Release x64|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Release x64|Mixed Platforms.Build.0 = Release x64|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Release x64|Win32.ActiveCfg = Release x64|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Release x64|Win32.Build.0 = Release x64|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Release x64|x64.ActiveCfg = Release x64|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Release x64|x64.Build.0 = Release x64|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Release x86|Any CPU.ActiveCfg = Release x86|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Release x86|Mixed Platforms.ActiveCfg = Release x86|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Release x86|Mixed Platforms.Build.0 = Release x86|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Release x86|Win32.ActiveCfg = Release x86|Win32
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Release x86|Win32.Build.0 = Release x86|Win32
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Release x86|x64.ActiveCfg = Release x86|x64
+		{446B1E21-65A1-4F56-AA2C-D2E24058B2B8}.Release x86|x64.Build.0 = Release x86|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
